@@ -1,0 +1,28 @@
+{
+  "name": "norway-trip-planner",
+  "version": "1.0.0",
+  "description": "Interactive trip planner for Norway 2025",
+  "main": "norway-trip.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required for static HTML'",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@vercel/node": "^3.0.0",
+    "typescript": "^5.0.0",
+    "vercel": "^33.0.0"
+  },
+  "keywords": [
+    "norway",
+    "trip-planner",
+    "gemini-ai",
+    "vercel"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

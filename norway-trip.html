@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="config.js"></script>
     <style>
       body {
         font-family: "Inter", sans-serif;
@@ -1270,10 +1271,12 @@
                       </div>
                     </div>
                   </div>
-                </div>
-
-                <!-- Timeline Card 2 -->
+                </div>                <!-- Timeline Card 2 -->
                 <div class="timeline-card" data-card="bohus-fortress">
+                  <div class="attraction-badge" onclick="toggleAttraction('bohus-fortress')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i data-lucide="castle" class="w-5 h-5 text-blue-600"></i>
@@ -1360,10 +1363,12 @@
                       </div>
                     </div>
                   </div>
-                </div>
-
-                <!-- Timeline Card 3 -->
+                </div>                <!-- Timeline Card 3 -->
                 <div class="timeline-card" data-card="bohuslan-coast">
+                  <div class="attraction-badge" onclick="toggleAttraction('bohuslan-coast')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i data-lucide="waves" class="w-5 h-5 text-blue-600"></i>
@@ -1451,10 +1456,12 @@
                       </div>
                     </div>
                   </div>
-                </div>
-
-                <!-- Timeline Card 4 -->
+                </div>                <!-- Timeline Card 4 -->
                 <div class="timeline-card" data-card="ringebu">
+                  <div class="attraction-badge" onclick="toggleAttraction('ringebu')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i data-lucide="church" class="w-5 h-5 text-blue-600"></i>
@@ -1541,10 +1548,12 @@
                       </div>
                     </div>
                   </div>
-                </div>
-
-                <!-- Timeline Card 5 -->
+                </div>                <!-- Timeline Card 5 -->
                 <div class="timeline-card" data-card="dombas">
+                  <div class="attraction-badge" onclick="toggleAttraction('dombas')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i
@@ -1657,9 +1666,12 @@
                 Trasa: Dombås → Oppdal → Kristiansund → Droga Atlantycka → Droga
                 Trolli → Valldal (Eidsdal) | Dystans: ~440 km | Czas jazdy: ~8h
               </p>
-              <div class="space-y-4">
-                <!-- Timeline Card 1 -->
+              <div class="space-y-4">                <!-- Timeline Card 1 -->
                 <div class="timeline-card" data-card="dombas-kristiansund">
+                  <div class="attraction-badge" onclick="toggleAttraction('dombas-kristiansund')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i
@@ -1937,10 +1949,12 @@
                       </div>
                     </div>
                   </div>
-                </div>
-
-                <!-- Timeline Card 4 -->
+                </div>                <!-- Timeline Card 4 -->
                 <div class="timeline-card" data-card="valldal-eidsdal">
+                  <div class="attraction-badge" onclick="toggleAttraction('valldal-eidsdal')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i data-lucide="cherry" class="w-5 h-5 text-blue-600"></i>
@@ -2143,10 +2157,12 @@
                       </div>
                     </div>
                   </div>
-                </div>
-
-                <!-- Timeline Card 2 -->
+                </div>                <!-- Timeline Card 2 -->
                 <div class="timeline-card" data-card="geiranger-ferry">
+                  <div class="attraction-badge" onclick="toggleAttraction('geiranger-ferry')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i data-lucide="ship" class="w-5 h-5 text-blue-600"></i>
@@ -2328,10 +2344,12 @@
                       </div>
                     </div>
                   </div>
-                </div>
-
-                <!-- Timeline Card 4 -->
+                </div>                <!-- Timeline Card 4 -->
                 <div class="timeline-card" data-card="oldedalen-lake">
+                  <div class="attraction-badge" onclick="toggleAttraction('oldedalen-lake')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i data-lucide="waves" class="w-5 h-5 text-blue-600"></i>
@@ -2419,10 +2437,12 @@
                       </div>
                     </div>
                   </div>
-                </div>
-
-                <!-- Timeline Card 5 -->
+                </div>                <!-- Timeline Card 5 -->
                 <div class="timeline-card" data-card="kaupanger-stave-church">
+                  <div class="attraction-badge" onclick="toggleAttraction('kaupanger-stave-church')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i data-lucide="church" class="w-5 h-5 text-blue-600"></i>
@@ -2511,10 +2531,12 @@
                       </div>
                     </div>
                   </div>
-                </div>
-
-                <!-- Timeline Card 6 -->
+                </div>                <!-- Timeline Card 6 -->
                 <div class="timeline-card" data-card="laerdal-tunnel">
+                  <div class="attraction-badge" onclick="toggleAttraction('laerdal-tunnel')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i
@@ -2701,8 +2723,11 @@
                   </div>
                 </div>
 
-                <!-- Timeline Card 8 -->
-                <div class="timeline-card" data-card="aurland-flam-evening">
+                <!-- Timeline Card 8 -->                <div class="timeline-card" data-card="aurland-flam-evening">
+                  <div class="attraction-badge" onclick="toggleAttraction('aurland-flam-evening')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i data-lucide="tent" class="w-5 h-5 text-blue-600"></i>
@@ -2811,8 +2836,11 @@
               </p>
 
               <div class="space-y-4">
-                <!-- Timeline Card 1 -->
-                <div class="timeline-card" data-card="laerdal-gamle">
+                <!-- Timeline Card 1 -->                <div class="timeline-card" data-card="laerdal-gamle">
+                  <div class="attraction-badge" onclick="toggleAttraction('laerdal-gamle')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i data-lucide="home" class="w-5 h-5 text-blue-600"></i>
@@ -2902,8 +2930,11 @@
                   </div>
                 </div>
 
-                <!-- Timeline Card 2 -->
-                <div class="timeline-card" data-card="hardangervidda-plateau">
+                <!-- Timeline Card 2 -->                <div class="timeline-card" data-card="hardangervidda-plateau">
+                  <div class="attraction-badge" onclick="toggleAttraction('hardangervidda-plateau')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i
@@ -3088,8 +3119,11 @@
                   </div>
                 </div>
 
-                <!-- Timeline Card 4 -->
-                <div class="timeline-card" data-card="geilo-drammen">
+                <!-- Timeline Card 4 -->                <div class="timeline-card" data-card="geilo-drammen">
+                  <div class="attraction-badge" onclick="toggleAttraction('geilo-drammen')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i
@@ -3203,8 +3237,11 @@
               </p>
 
               <div class="space-y-4">
-                <!-- Timeline Card 1 -->
-                <div class="timeline-card" data-card="fredrikstad-gamlebyen">
+                <!-- Timeline Card 1 -->                <div class="timeline-card" data-card="fredrikstad-gamlebyen">
+                  <div class="attraction-badge" onclick="toggleAttraction('fredrikstad-gamlebyen')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i data-lucide="shield" class="w-5 h-5 text-blue-600"></i>
@@ -3294,8 +3331,11 @@
                   </div>
                 </div>
 
-                <!-- Timeline Card 2 -->
-                <div class="timeline-card" data-card="journey-to-sweden">
+                <!-- Timeline Card 2 -->                <div class="timeline-card" data-card="journey-to-sweden">
+                  <div class="attraction-badge" onclick="toggleAttraction('journey-to-sweden')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i data-lucide="car" class="w-5 h-5 text-blue-600"></i>
@@ -3385,8 +3425,11 @@
                   </div>
                 </div>
 
-                <!-- Timeline Card 3 -->
-                <div class="timeline-card" data-card="ales-stenar">
+                <!-- Timeline Card 3 -->                <div class="timeline-card" data-card="ales-stenar">
+                  <div class="attraction-badge" onclick="toggleAttraction('ales-stenar')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i
@@ -3478,8 +3521,11 @@
                   </div>
                 </div>
 
-                <!-- Timeline Card 4 -->
-                <div class="timeline-card" data-card="ystad-final-evening">
+                <!-- Timeline Card 4 -->                <div class="timeline-card" data-card="ystad-final-evening">
+                  <div class="attraction-badge" onclick="toggleAttraction('ystad-final-evening')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i
@@ -3582,8 +3628,11 @@
               </p>
 
               <div class="space-y-4">
-                <!-- Timeline Card 1 -->
-                <div class="timeline-card" data-card="swinoujscie-arrival">
+                <!-- Timeline Card 1 -->                <div class="timeline-card" data-card="swinoujscie-arrival">
+                  <div class="attraction-badge" onclick="toggleAttraction('swinoujscie-arrival')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i data-lucide="ship" class="w-5 h-5 text-blue-600"></i>
@@ -3673,8 +3722,11 @@
                   </div>
                 </div>
 
-                <!-- Timeline Card 2 -->
-                <div class="timeline-card" data-card="wolin-jomsborg">
+                <!-- Timeline Card 2 -->                <div class="timeline-card" data-card="wolin-jomsborg">
+                  <div class="attraction-badge" onclick="toggleAttraction('wolin-jomsborg')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i data-lucide="crown" class="w-5 h-5 text-blue-600"></i>
@@ -3764,8 +3816,11 @@
                   </div>
                 </div>
 
-                <!-- Timeline Card 3 -->
-                <div class="timeline-card" data-card="lubin-grodzisko">
+                <!-- Timeline Card 3 -->                <div class="timeline-card" data-card="lubin-grodzisko">
+                  <div class="attraction-badge" onclick="toggleAttraction('lubin-grodzisko')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i
@@ -3858,8 +3913,11 @@
                   </div>
                 </div>
 
-                <!-- Timeline Card 4 -->
-                <div class="timeline-card" data-card="journey-home">
+                <!-- Timeline Card 4 -->                <div class="timeline-card" data-card="journey-home">
+                  <div class="attraction-badge" onclick="toggleAttraction('journey-home')">
+                    <i data-lucide="check" class="w-3 h-3"></i>
+                    <div class="badge-tooltip">Oznacz jako odwiedzone</div>
+                  </div>
                   <div class="timeline-card-header">
                     <div class="timeline-card-icon bg-blue-100">
                       <i data-lucide="home" class="w-5 h-5 text-blue-600"></i>
@@ -5248,12 +5306,11 @@
               prompt = `Find interesting tourist attractions, viewpoints, and activities within 30km radius of ${routeData.start} in Norway. Focus on natural attractions, hiking trails, viewpoints, and local cultural sites. For each suggestion, provide: "name", "description", "category", "distance_km" (distance from ${routeData.start} in km), and "visit_duration" (recommended visit time in minutes). Format as JSON array.`;
             } else {
               prompt = `Based on the driving route from ${routeData.start} to ${routeData.end} in Norway, suggest interesting tourist attractions, viewpoints, or short stops that are very close to this main route, requiring minimal detour. For each suggestion, provide: "name", "description", "category", "km_from_start" (distance in km from ${routeData.start} along the main route), "detour_km" (extra kilometers for the detour), and "detour_min" (extra minutes for the detour). Format as JSON array.`;
-            }
-
-            const chatHistory = [{ role: "user", parts: [{ text: prompt }] }];
-            const payload = { contents: chatHistory };
-            const apiKey = ""; // API key will be provided in runtime environment
-            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+            }            // Use Vercel API proxy instead of direct Gemini API
+            const payload = {
+              userPrompt: prompt
+            };
+            const apiUrl = window.CONFIG?.GEMINI_PROXY_URL || "/api/gemini-proxy";
 
             const response = await fetch(apiUrl, {
               method: "POST",
@@ -5265,13 +5322,8 @@
               throw new Error(`HTTP error! status: ${response.status}`);
             const result = await response.json();
 
-            if (
-              result.candidates &&
-              result.candidates[0].content &&
-              result.candidates[0].content.parts &&
-              result.candidates[0].content.parts.length > 0
-            ) {
-              let text = result.candidates[0].content.parts[0].text;
+            if (result.reply) {
+              let text = result.reply;
               text = text
                 .replace(/```json/g, "")
                 .replace(/```/g, "")
@@ -5289,8 +5341,7 @@
                   contentElement,
                   route,
                   routeData.isLocal
-                );
-              } else {
+                );              } else {
                 throw new Error("Invalid suggestions format");
               }
             } else {
@@ -5360,7 +5411,92 @@
 
           // Re-initialize Lucide icons
           lucide.createIcons();
-        } // --- Logika Wyszukiwarki AI ---
+        } 
+        
+        // --- Funkcje dla głównej wyszukiwarki AI ---
+        
+        // Fetch suggestions for main AI search
+        async function fetchAndDisplaySuggestions(startPoint, endPoint, contentElement, loaderElement, errorElement, displayFunction) {
+          try {
+            const prompt = `Based on the driving route from ${startPoint} to ${endPoint} in Norway, suggest interesting tourist attractions, viewpoints, or short stops that are very close to this main route, requiring minimal detour. For each suggestion, provide: "name", "description", "category", "km_from_start" (distance in km from ${startPoint} along the main route), "detour_km" (extra kilometers for the detour), and "detour_min" (extra minutes for the detour). Format as JSON array.`;            const payload = {
+              userPrompt: prompt
+            };
+            const apiUrl = window.CONFIG?.GEMINI_PROXY_URL || "/api/gemini-proxy";
+
+            const response = await fetch(apiUrl, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify(payload),
+            });
+
+            if (!response.ok) {
+              throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
+            const result = await response.json();
+
+            if (result.reply) {
+              let text = result.reply;
+              text = text.replace(/```json/g, "").replace(/```/g, "").trim();
+              let suggestions = JSON.parse(text);
+
+              if (Array.isArray(suggestions)) {
+                suggestions.sort((a, b) => (a.km_from_start || 0) - (b.km_from_start || 0));
+                loaderElement.classList.add("hidden");
+                errorElement.classList.add("hidden");
+                contentElement.classList.remove("hidden");
+                displayFunction(suggestions, contentElement);
+              } else {
+                throw new Error("Invalid suggestions format");
+              }
+            } else {
+              throw new Error("No valid content received from API");
+            }
+          } catch (error) {
+            console.error("Error fetching AI suggestions:", error);
+            loaderElement.classList.add("hidden");
+            errorElement.classList.remove("hidden");
+            contentElement.classList.add("hidden");
+          }
+        }
+        
+        // Display AI results in the main AI tab
+        function displayAiResults(suggestions, container) {
+          if (!suggestions || suggestions.length === 0) {
+            container.innerHTML = `
+              <div style="text-align: center; color: #6b7280; padding: 24px;">
+                <i data-lucide="map-pin" class="w-8 h-8 mx-auto mb-2 text-gray-400"></i>
+                <p>Brak sugestii dla tej trasy.</p>
+              </div>
+            `;
+            return;
+          }
+
+          const suggestionsHTML = suggestions.map((item, index) => `
+            <div class="ai-suggestion-item">
+              <div class="ai-suggestion-header">
+                <div class="ai-suggestion-title">${item.name}</div>
+                <div class="ai-suggestion-distance">
+                  ${item.km_from_start}km od startu
+                  ${item.detour_km ? `• +${item.detour_km}km (+${item.detour_min}min)` : ''}
+                </div>
+              </div>
+              <div class="ai-suggestion-description">${item.description}</div>
+              <div class="ai-suggestion-category">${item.category}</div>
+            </div>
+          `).join("");
+
+          container.innerHTML = `
+            <div class="ai-suggestions-results">
+              ${suggestionsHTML}
+            </div>
+          `;
+          
+          // Re-initialize Lucide icons
+          lucide.createIcons();
+        }
+        
+        // --- Logika Wyszukiwarki AI ---
 
         // Główna wyszukiwarka w zakładce AI
         const aiSearchButton = document.getElementById("aiSearchButton");
@@ -5376,20 +5512,24 @@
             if (!startPoint || !endPoint) {
               alert("Proszę wybrać oba punkty: A (start) i B (koniec).");
               return;
-              aiPlaceholder.classList.add("hidden");
-              aiError.classList.add("hidden");
-              aiContent.classList.add("hidden");
-              aiLoader.classList.remove("hidden");
-              aiContent.innerHTML = "";
-              fetchAndDisplaySuggestions(
-                startPoint,
-                endPoint,
-                aiContent,
-                aiLoader,
-                aiError,
-                displayAiResults
-              );
             }
+            
+            // Hide placeholder, show loader
+            aiPlaceholder.classList.add("hidden");
+            aiError.classList.add("hidden");
+            aiContent.classList.add("hidden");
+            aiLoader.classList.remove("hidden");
+            aiContent.innerHTML = "";
+            
+            // Fetch suggestions
+            fetchAndDisplaySuggestions(
+              startPoint,
+              endPoint,
+              aiContent,
+              aiLoader,
+              aiError,
+              displayAiResults
+            );
           });
         }
 
