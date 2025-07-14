@@ -2,11 +2,11 @@
   "name": "norway-trip-planner",
   "version": "1.0.0",
   "description": "Interactive trip planner for Norway 2025",
-  "main": "norway-trip.html",
-  "scripts": {
+  "main": "norway-trip.html",  "scripts": {
     "dev": "vercel dev",
-    "build": "echo 'No build step required for static HTML'",
-    "start": "vercel dev"
+    "build": "echo 'Build completed - static files are in public directory'",
+    "start": "vercel dev",
+    "test-setup": "node test-setup.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0"

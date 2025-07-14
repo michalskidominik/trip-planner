@@ -1,8 +1,9 @@
 {
+  "outputDirectory": "public",
   "rewrites": [
     {
       "source": "/",
-      "destination": "/norway-trip.html"
+      "destination": "/index.html"
     }
   ],
   "headers": [

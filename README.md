@@ -70,12 +70,15 @@ The application uses a Vercel API proxy (`/api/gemini-proxy`) to securely commun
 ## File Structure
 
 ```
-norway-trip.html          # Main application file
-config.js                 # Client-side configuration
-api/gemini-proxy.ts       # Vercel API proxy function
-package.json              # Dependencies and scripts
-vercel.json               # Vercel deployment configuration
-.env.local                # Environment variables (not in git)
+public/
+  index.html              # Landing page with redirect
+  norway-trip.html        # Main application file
+  config.js              # Client-side configuration
+api/
+  gemini-proxy.ts        # Vercel API proxy function
+package.json             # Dependencies and scripts
+vercel.json             # Vercel deployment configuration
+.env.local              # Environment variables (not in git)
 ```
 
 ## Security Notes
