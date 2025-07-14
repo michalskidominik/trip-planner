@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "api/gemini-proxy.ts": {
-      "runtime": "@vercel/node"
-    }
-  },
   "rewrites": [
     {
       "source": "/",
